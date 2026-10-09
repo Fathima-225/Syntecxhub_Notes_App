@@ -1,16 +1,37 @@
-# React + Vite
+# Syntecxhub Notes App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive Notes Management Web Application developed using React.js and Vite as part of the Syntecxhub Web Development Internship.
 
-Currently, two official plugins are available:
+## Features
+- Add new notes
+- View saved notes
+- Edit existing notes
+- Delete notes with confirmation
+- Save notes using browser LocalStorage
+- Responsive user interface
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Technologies Used
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+- Vite
+- Git & GitHub
+- Vercel
 
-## React Compiler
+## Live Demo
+https://syntecxhub-notes-app-ten.vercel.app
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Installation
+```bash
+git clone https://github.com/Fathima-225/Syntecxhub_Notes_App.git
+cd Syntecxhub_Notes_App
+npm install
+npm run dev
+```
 
-## Expanding the ESLint configuration
+## Data Storage
+Notes are stored locally in the user's browser using LocalStorage. No backend or database is required.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Project Purpose
+Developed as part of the Syntecxhub Web Development Internship to demonstrate React components, state management, CRUD operations, responsive design, and deployment.
